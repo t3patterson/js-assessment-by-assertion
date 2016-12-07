@@ -29,6 +29,25 @@ let ENV = {
 			return n
 		}
 
+	},
+
+	simpOrSamp: {
+		globals: { 
+			simpList: window.simpList
+		}
+	},
+
+	findLongestWord: {
+		globals: { 
+			phrase_1: 'a book full of money',
+			phrase_2: 'the hamburgers are tasty',
+			phrase_3: "don't mess with Texas"
+		}
 	}
+
+	
+	
+
+
 }
 console.log(ENV)

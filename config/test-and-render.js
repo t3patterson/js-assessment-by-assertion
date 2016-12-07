@@ -33,10 +33,7 @@ function makeTableRowFromAssertion(assertionObj){
 			 assertionIcon =  assertionObj.assertionResult ? ICONS.passed : ICONS.failed,
 			 resultIcon	 = assertionObj.actual === assertionObj.expected ? ICONS.passed : ICONS.failed
 		
-		console.log(assertionObj.assertionResult)
-		
-		
-		
+		console.log(assertionContextClass)
 		
 		return `<tr">
 					<td class="${assertionContextClass}"><span class="txt-muted">${assertionIcon}</span>${assertionObj.description}</td> 
